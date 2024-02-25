@@ -1,0 +1,109 @@
+* {
+  font-family: Monaco, sans-serif;
+}
+
+.App {
+  margin-top: 20px;
+  left: 50%;
+  padding: 0 40px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: fit-content;
+}
+
+.content-container> img{
+  width: 1000px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.content-container> p{
+  width: 90%;
+}
+
+#comment-box {
+  padding: 0 40px;
+}
+
+.commentContainer {
+  margin-top: 6px;
+  background-color: #d3d3d3e0;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+  width: 300px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: baseline;
+  gap: 20px;
+}
+
+textarea {
+  width: 60%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+.inputContainer > span {
+  margin-top: 5px;
+}
+
+/* .inputContainer__input {
+  margin: 6px 0 0px 0;
+  padding: 5px;
+  display: flex;
+  border: 1px solid lightgray;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #e7e7e7;
+} */
+
+.first_input {
+  margin: 0;
+}
+
+.commentContainer > span {
+  margin: 0 5px;
+}
+
+.reply {
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 5px;
+  color: #4e4e4e;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reply:hover {
+  background-color: #bababa;
+}
+
+.comment {
+  color: #ffffff;
+  background-color: #569dff;
+  letter-spacing: 0.8px;
+
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
